@@ -26,11 +26,9 @@ body {
   color: #000000;
   background-color: #ffffff;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   min-height: 100%;
-  margin: 0;
-  width: 1200px;
+  margin: 0 auto;
 }
 
 .main-container {
@@ -98,14 +96,14 @@ body {
 }
 
 .page-container {
-  width: 940px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 .promo {
   background-image: url("/images/index-background.jpg");
-  background-size: 1200px 485px;
   background-repeat: no-repeat;
+  background-size: 1200px 485px;
   color: #000000;
   background-color: #ffffff;
 }
@@ -115,6 +113,32 @@ body {
   margin: 0 auto;
 }
 
+.first-advantage {
+  display: flex;
+  width: 1200px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+
+.text {
+  width: 400px;
+  height: 384px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.image-sedona img {
+  width: 800px;
+  height: 384px;
+}
+
+.advantages-items li {
+  width: 400px;
+  height: 384px;
+  display: flex;
+  justify-content: baseline;
+}
 
 .advantages-title {
   font-size: 30px;
